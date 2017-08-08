@@ -2154,3 +2154,19 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 	background-size:100%;
 width:100%;
 }
+
+@media (max-height: 1100px) and (max-width: 900px) {
+	.archybg{
+		background-size:150%;
+	}
+}
+@media (max-height: 800px) and (max-width: 500px) {
+	.archybg{
+		background-size:235%;
+	}
+}
+@media (max-height: 650px) and (max-width: 400px) {
+	.archybg{
+		background-size:290%;
+	}
+}
