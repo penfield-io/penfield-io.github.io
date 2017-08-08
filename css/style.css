@@ -2099,10 +2099,21 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 }
 
 .img-responsive{
-	width:50%;
+	width:70%;
+	max-width: 470px;
 	margin:0 auto
 }
 
+@media (max-width: 1000px) {
+	.img-responsive{
+		width:80%;
+		max-width: 470px;
+		margin:0 auto
+	}
+	.content-2{
+		padding: 72px 0
+	}
+}
 
 @media (max-width: 600px) {
 	.lead{
@@ -2118,7 +2129,10 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 		font-size: 60px
 	}
 	.img-responsive{
-		width: 80%
+		width: 90%
+	}
+	.content-2{
+		padding: 40px 0
 	}
 }
 @media (max-width: 450px) {
@@ -2130,6 +2144,9 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 	}
 	.main-tagline{
 		font-size: 25px
+	}
+	.content-2{
+		padding: 50px 0
 	}
 }
 @media (max-width: 350px) {
@@ -2152,7 +2169,7 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 
 .archybg{
 	background-size:100%;
-width:100%;
+	width:100%;
 }
 
 @media (max-height: 1100px) and (max-width: 900px) {
