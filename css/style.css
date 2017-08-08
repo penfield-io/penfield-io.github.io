@@ -1103,7 +1103,7 @@ hr { border: 0; }
 .team.style2 .team-date h6 { margin: 20px 0 0 0; }
 .team.style2 .team-date p { margin: 10px 0; }
 .team-header { position: relative; }
-.team-header .team-layer { background: #21252b; position: absolute; top: 0; left: 0; bottom: 0; right: 0; opacity: 0.5; display: none; z-index: 99; }
+.team-header .team-layer { border-radius: 90px;background: #21252b; position: absolute; top: 0; left: 0; bottom: 0; right: 0; opacity: 0.5; display: none; z-index: 99; }
 .team ul.half { text-align: center; position: absolute; top: 50%; left: 0; width: 100%; display: none; }
 .team ul.half li { background: #fff; width: 60px; height: 60px; line-height: 60px; border-radius: 100%; text-align: center; font-size: 32px; }
 
