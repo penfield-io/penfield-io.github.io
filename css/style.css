@@ -2125,8 +2125,11 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 	.main-tagline{
 		font-size: 30px
 	}
-	h1,h2,h3{
+	h1{
 		font-size: 60px
+	}
+	h2{
+		font-size: 40px
 	}
 	.img-responsive{
 		width: 90%
@@ -2139,8 +2142,11 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 	.main-logo{
 		width:300px;
 	}
-	h1,h2,h3{
+	h1{
 		font-size: 50px
+	}
+	h2{
+		font-size: 30px
 	}
 	.main-tagline{
 		font-size: 25px
@@ -2170,6 +2176,27 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 .archybg{
 	background-size:100%;
 	width:100%;
+}
+
+.archyH2{
+  font-family: Bitter, "Times", serif;
+  text-align: center;
+  margin: 30px 0;
+	margin-top: 50px;
+  color:#111;
+	text-transform: uppercase;
+}
+
+.poweredBy{
+	height: 120px;
+}
+
+.poweredBy img{
+  width:80%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 @media (max-height: 1100px) and (max-width: 900px) {
