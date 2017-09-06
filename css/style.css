@@ -2104,6 +2104,13 @@ ul.recent-post li .fa { margin-right: 10px; font-size: 13px; }
 	margin:0 auto
 }
 
+@media (min-width: 1200px) {
+.responsiveSpacingDiv{
+	margin-bottom: 90px
+}
+}
+
+
 @media (max-width: 1000px) {
 	.img-responsive{
 		width:80%;
