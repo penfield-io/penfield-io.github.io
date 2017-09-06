@@ -4,7 +4,7 @@
     <meta name="description" content="Penfield Technologies">
     <meta name="author" content="FDB">
     <meta name="keywords" content="piksell, html5, css3, template, bootstrap">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta name="viewport" content="width=device-width">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,6 +18,145 @@
 
     <!-- Customizable CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    .main-logo{
+    	width:500px;
+    }
+
+    .main-tagline{
+    	margin-top:13px;
+    	color:#333;
+    	font-size:40px;
+    	font-family: 'Oleo Script', cursive;
+    	padding:0 20px;
+    	line-height: 1em
+    }
+
+    .img-responsive{
+    	width:70%;
+    	max-width: 470px;
+    	margin:0 auto
+    }
+
+    @media (min-width: 1200px) {
+    .responsiveSpacingDiv{
+    	margin-bottom: 90px
+    }
+    }
+
+
+    @media (max-width: 1000px) {
+    	.img-responsive{
+    		width:80%;
+    		max-width: 470px;
+    		margin:0 auto
+    	}
+    	.content-2{
+    		padding: 72px 0
+    	}
+    }
+
+    @media (max-width: 600px) {
+    	.lead{
+    		padding:0 20px
+    	}
+    	.main-logo{
+    		width:400px;
+    	}
+    	.main-tagline{
+    		font-size: 30px
+    	}
+    	h1{
+    		font-size: 50px
+    	}
+    	h2{
+    		font-size: 40px
+    	}
+    	.img-responsive{
+    		width: 90%
+    	}
+    	.content-2{
+    		padding: 40px 0
+    	}
+    }
+    @media (max-width: 450px) {
+    	.main-logo{
+    		width:300px;
+    	}
+    	h1{
+    		font-size: 40px
+    	}
+    	h2{
+    		font-size: 30px
+    	}
+    	.main-tagline{
+    		font-size: 25px
+    	}
+    	.content-2{
+    		padding: 50px 0
+    	}
+    }
+    @media (max-width: 350px) {
+    	.main-logo{
+    		width:250px;
+    	}
+    	h1,h2,h3{
+    		font-size: 30px
+    	}
+    	.main-tagline{
+    		font-size: 20px
+    	}
+    }
+
+    .leadboxspecial{
+    	max-width:600px;
+    	margin: 0 auto;
+    	    margin-bottom: 40px;
+    }
+
+    .archybg{
+    	background-size:100%;
+    	width:100%;
+    }
+
+    .archyH2{
+      font-family: Bitter, "Times", serif;
+      text-align: center;
+      margin: 30px 0;
+    	margin-top: 50px;
+      color:#111;
+    	text-transform: uppercase;
+    }
+
+    .poweredBy{
+    	height: 120px;
+    }
+
+    .poweredBy img{
+      width:80%;
+    	margin: 0 auto;
+    	position: relative;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+
+    @media (max-height: 1100px) and (max-width: 900px) {
+    	.archybg{
+    		background-size:150%;
+    	}
+    }
+    @media (max-height: 800px) and (max-width: 500px) {
+    	.archybg{
+    		background-size:235%;
+    	}
+    }
+    @media (max-height: 650px) and (max-width: 400px) {
+    	.archybg{
+    		background-size:290%;
+    	}
+    }
+    </style>
 
     <!-- FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
@@ -69,7 +208,7 @@
         <div class="container">
             <div class="row">
 
-                <h1 class="text-center">Our mission is to improve psychosocial well-being with everyday technologies</h1>
+                <h2 class="text-center">Our mission is to improve psychosocial well-being with everyday technologies</h2>
                 <div class="line"></div>
 
                 <div class="col-sm-6">
@@ -98,7 +237,7 @@
     <section class="content-2 section-grey">
         <div class="container">
             <div class="row">
-                <h3 class="text-center">IVi</h3>
+                <h2 class="text-center">IVi</h2>
 
 
                 <p class="lead text-center margin-bottom-45 leadboxspecial">A virtual world where parent and child can play together and foster good habits,
@@ -112,7 +251,7 @@ specially designed with insights from developmental psychology.
                                 <i class="fa fa-grav"></i>
                             </div>
                             <div class="single_box_right">
-                                <h3>Cute and emotionally intelligent virtual friend</h3> Ivi is a cute rabbit character who can express a wide range of emotions, and also ‘see’ these in your child.  Using the selfie-camera on the tablet or smartphone, Ivi can make a pretty good guess of how the child feels and relate accordingly.  Like all youngsters, this is something that gets better with time</div>
+                                <h3>Cute and emotionally intelligent virtual friend</h3> Ivi is a cute rabbit character who can express a wide range of emotions, and also ‘see’ these in your child.  Using the selfie-camera on the tablet or smartphone, Ivi can make a pretty good guess of how the child feels and relate accordingly.  As with all youngsters, this is something that gets better with time.</div>
                         </div>
                     </div>
 
@@ -187,7 +326,7 @@ specially designed with insights from developmental psychology.
                                       <div class="col-xs-12">
                                 <div class="form-group">
 
-                                    <a style="margin: 0 auto; display: table;" href="mailto:info@penfield.io?subject=Request For Alpha Testing"" class="btn btn-lg pi-btn-default no-rounded">Join us for Alpha Testing <i class="fa fa-paper-plane"></i></a>
+                                    <a style="margin: 0 auto; display: table;" href="mailto:info@penfield.io?subject=Request For Alpha Testing" class="btn btn-lg pi-btn-default no-rounded">Join us for Alpha Testing <i class="fa fa-paper-plane"></i></a>
 
                             </div>
 
@@ -264,7 +403,7 @@ specially designed with insights from developmental psychology.
                                   Founded his first startup with a self-learning app at 16.
                                   Completed a Ph.D. course on Programming Language Theory in the National University of Singapore at 19.
                                   At the same year reduced a 80 years old conjecture in mathematics to a problem in computer science.
-                                    Been in the start-up scene on and off for 6 years, while deciding if to pursuit a career in academia, engineering or business.
+                                    Been in the start-up scene on and off for 5 years, while deciding whether to pursuit a career in academia, engineering or business.
                                     Now 21 and determined to go all in for Penfield.</p>
                             </div>
                         </div><!-- end team-style3 -->
@@ -321,9 +460,9 @@ specially designed with insights from developmental psychology.
                             </div>
                             <div class="team-date">
                                 <h6>Marc Archer</h6>
-                                <i class="piksell-color small-text">Co-Founder, Product Director</i>
-                                <p>PhD Psychology (UCL)
-15+ years applied research experience in UK, USA, China and Malaysia.  Focus on socio-emotional development of children infragmented families, welfare, and cultural differences. Marc has worked with kids and families as an applied researcher and teacher for over 15 years.  This includes time in his native England, France, the US, and Malaysia.  He’s currently a postdoctoral research fellow at Zhejiang University’s newly established Centre for Global Health leading research on socio-emotional development among preschool children in rural China.
+                                <i class="piksell-color small-text">Co-Founder, Chairman</i>
+                                <p>
+Marc has worked with kids and families as an applied researcher and teacher for over 15 years.  This includes time in his native England, France, the US, and Malaysia.  He’s currently a postdoctoral research fellow at Zhejiang University’s newly established Centre for Global Health leading research on socio-emotional development among preschool children in rural China.
 
 
 </p>
@@ -331,34 +470,35 @@ specially designed with insights from developmental psychology.
                         </div><!-- end team-style3 -->
                     </div>
                 </div>
+        </div>
+</div><!-- end row -->
+</div><!-- end container -->
+</section>
 
- <h1 class="text-center">Our parents panel</h1>
-                <div class="line"></div>
+  <section style="overflow:hidden; height:400px">
+    <section class="content section-parallax parallaxBg-2 archybg" style="background-image: url(&quot;img/65207976_xl.jpg&quot;); position: relative; height: 400px; background-position: 50% -584px;"></section>
+  </section>
 
-                <p class="lead text-center margin-bottom-45"></p>
+<section id="team" data-anchor="team" class="content-2 section-grey">
+    <div class="container">
+<h1 class="text-center">Our parents panel</h1>
+<div class="line"></div>
+
+<p class="lead text-center margin-bottom-45"></p>
 <p class="lead text-center margin-bottom-45 lead-speical">We work with parents at every stage of the process, discussing and learning about their challenges, and finding ways to improve.  Parents and their kids are essential experts for Ivi!
 
 We’d love to hear from you too.  If you’d like to learn more, or be interested in talking to us about your experiences as a parent, please  drop us a line.
 
-<br></p>
+<br></p></div>
 
-        <div class="col-xs-12">
+                        <div class="col-xs-12">
                                 <div class="form-group">
 
-                                    <a style="margin: 0 auto; display: table;" href="mailto:parents@penfield.io?subject=Parents panel!"" class="btn btn-lg pi-btn-default no-rounded">Join us! <i class="fa fa-paper-plane"></i></a>
-
-                            </div>
-
-
-
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section>
+                                    <a style="margin: 0 auto; margin-bottom:40px; display: table;" href="mailto:parents@penfield.io?subject=Parents panel!" class="btn btn-lg pi-btn-default no-rounded">Join us! <i class="fa fa-paper-plane"></i></a>
     <!-- end team -->
    <section style="overflow:hidden; height:400px">
-    <section class="content section-parallax parallaxBg-2 archybg" style="background-image: url(&quot;img/48507288_m.jpg&quot;); position: relative; height: 400px; background-position: 50% -584px;"></section>
+    <section class="content section-parallax parallaxBg-2 archybg" style="background-image: url(&quot;img/65207976_xl.jpg&quot;); position: relative; height: 400px; background-position: 50% -584px;"></section>
   </section>
-
 
             </div><!-- end row -->
               <h2 class="archyH2">POWERED BY</h2>
